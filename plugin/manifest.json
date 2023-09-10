@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Wait for it",
+  "version": "1.0",
+  "description": "Adds an extra hour to a day",
+  "permissions": ["tabs"],
+  "chrome_url_overrides": {
+    "newtab": "morphed-time.html"
+  },
+  "icons": {
+    "48": "icon.png"
+  },
+  "manifest_version": 2
+}
